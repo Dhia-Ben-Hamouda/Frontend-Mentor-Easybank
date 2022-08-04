@@ -1,0 +1,13 @@
+#home{
+  min-height: 90vh;
+  background:red;
+  padding:1rem 10vw;
+  position: relative;
+  overflow: hidden;
+
+  .svg{
+    position: absolute;
+    right:-25%;
+    top:-40%;
+  }
+}

@@ -1,9 +1,13 @@
 import React from "react";
+import Navbar from "./Navbar.jsx";
+import Home from "./Home.jsx";
+import "./styles/styles.scss";
 
 const App = ()=>{
   return(
     <>
-      <h1>hello world</h1>
+      <Navbar/>
+      <Home/>
     </>
   )
 }

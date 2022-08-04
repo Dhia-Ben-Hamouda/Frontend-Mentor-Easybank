@@ -1,0 +1,23 @@
+nav{
+  background:white;
+  padding:1rem 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul{
+    a{
+      color:grey;
+      margin-inline: 1rem;
+    }
+  }
+
+  button{
+    background:linear-gradient(to left , $cyan , $green );
+    border-radius: 50px;
+    border:none;
+    color:white;
+    padding:.75rem 1.5rem;
+    font-weight: 600;
+  }
+}
