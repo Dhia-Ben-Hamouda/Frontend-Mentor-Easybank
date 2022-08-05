@@ -12,8 +12,9 @@ const Home = ()=>{
             <h3>Take your financial life online . Your easybank account will be a one-stop shop for spending , saving , budgeting , investing , and mush more.</h3>
             <button>Request invite</button>
           </div>
-          <img className="svg" src={img} alt="" />
-          <img src={mockup} alt=""  />
+          <div className="images">
+            <img src={img} className="svg" alt="" />
+          </div>
         </div>
       </section>
     </>

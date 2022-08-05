@@ -1,27 +1,37 @@
 #home {
-  min-height: 90vh;
   background: hsl(0, 0%, 98%);
-  padding: 1rem 10vw;
+  padding: 0rem 10vw;
+  padding-right: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
   position: relative;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
 
   .container {
-    min-height:90vh;
-    margin:auto 0;
+    min-height: calc(100vh - 72px);
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
+    
 
-    .svg {
-      position: absolute;
-      right: -25%;
-      top: -40%;
-      z-index: 0;
+    .images{
+      width:65%;
+      min-height: calc(100vh - 72px);
+      
+      .svg{
+        position: absolute;
+        bottom:-80px;
+        
+      }
     }
 
     .text {
       width:35%;
       h1{
-        font-size: 45px;
+        
+        font-size: 55px;
         font-weight: 500;
         margin-bottom: 1.5rem;
       }
