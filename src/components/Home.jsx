@@ -1,5 +1,6 @@
 import React from "react";
 import img from "./images/bg-intro-desktop.svg";
+import mockup from "./images/image-mockups.png";
 
 const Home = ()=>{
   return(
@@ -12,6 +13,7 @@ const Home = ()=>{
             <button>Request invite</button>
           </div>
           <img className="svg" src={img} alt="" />
+          <img src={mockup} alt=""  />
         </div>
       </section>
     </>
