@@ -1,3 +1,16 @@
 #blog{
-  
+  padding:3rem 10vw;
+
+  h1{
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 2rem;
+  }
+
+  .container{
+    background:gold;
+    .card{
+      width:25%;
+    }
+  }
 }
