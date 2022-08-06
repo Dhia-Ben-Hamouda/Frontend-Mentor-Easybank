@@ -1,5 +1,8 @@
 import React from "react";
 import currency from "./images/image-currency.jpg";
+import restaurant from "./images/image-restaurant.jpg";
+import plane from "./images/image-plane.jpg";
+import confetti from "./images/image-confetti.jpg";
 
 const Blog = () => {
   return (
@@ -16,7 +19,7 @@ const Blog = () => {
         </div>
 
         <div className="card">
-          <img src={currency} alt="" />
+          <img src={restaurant} alt="" />
           <div>
             <p>By Wilson Hutton</p>
             <h2>Treat yourself without worrying about money</h2>
@@ -25,7 +28,7 @@ const Blog = () => {
         </div>
 
         <div className="card">
-          <img src={currency} alt="" />
+          <img src={plane} alt="" />
           <div>
             <p>By Wilson Hutton</p>
             <h2>Take your Easybank card wherever you go We want</h2>
@@ -34,7 +37,7 @@ const Blog = () => {
         </div>
 
         <div className="card">
-          <img src={currency} alt="" />
+          <img src={confetti} alt="" />
           <div>
             <p>By Claire Robinson</p>
             <h2>Our invite-only Beta accounts are now live!</h2>

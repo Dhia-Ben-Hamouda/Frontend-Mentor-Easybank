@@ -1,6 +1,6 @@
 import React from "react";
 import img from "./images/bg-intro-desktop.svg";
-import mockup from "./images/image-mockups.png";
+import mockups from "./images/image-mockups.png";
 
 const Home = ()=>{
   return(
@@ -14,6 +14,9 @@ const Home = ()=>{
           </div>
           <div className="images">
             <img src={img} className="svg" alt="" />
+            <div className="mockups">
+              <img src={mockups} alt="" />
+            </div>
           </div>
         </div>
       </section>

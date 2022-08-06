@@ -19,6 +19,20 @@
     .images{
       width:65%;
       min-height: calc(100vh - 72px);
+
+      .mockups{
+        z-index: 5000;
+        height:100%;
+        width:100%;
+
+        img{
+          width:50%;
+          position:absolute;
+          right:-125px;
+          top:-125px;
+          z-index: 500;
+        }
+      }
       
       .svg{
         position: absolute;
