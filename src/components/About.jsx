@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from "./images/icon-online.svg";
-import img2 from "./images/icon-budgeting.svg";
-import img3 from "./images/icon-onboarding.svg";
-import img4 from "./images/icon-api.svg";
+import img1 from "../images/icon-online.svg";
+import img2 from "../images/icon-budgeting.svg";
+import img3 from "../images/icon-onboarding.svg";
+import img4 from "../images/icon-api.svg";
 
 const About = ()=>{
   return(

@@ -1,8 +1,8 @@
 import React from "react";
-import currency from "./images/image-currency.jpg";
-import restaurant from "./images/image-restaurant.jpg";
-import plane from "./images/image-plane.jpg";
-import confetti from "./images/image-confetti.jpg";
+import currency from "../images/image-currency.jpg";
+import restaurant from "../images/image-restaurant.jpg";
+import plane from "../images/image-plane.jpg";
+import confetti from "../images/image-confetti.jpg";
 
 const Blog = () => {
   return (

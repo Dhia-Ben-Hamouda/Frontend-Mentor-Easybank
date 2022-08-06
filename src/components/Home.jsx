@@ -1,6 +1,6 @@
 import React from "react";
-import img from "./images/bg-intro-desktop.svg";
-import mockups from "./images/image-mockups.png";
+import img from "../images/bg-intro-desktop.svg";
+import mockups from "../images/image-mockups.png";
 
 const Home = ()=>{
   return(
