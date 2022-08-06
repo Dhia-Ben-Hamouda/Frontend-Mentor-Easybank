@@ -48,3 +48,37 @@
     }
   }
 }
+
+// tablets
+
+@media(min-width:700px) and (max-width:1024px)
+{
+
+}
+
+// mobile devices
+
+@media(min-width:281px) and (max-width:640px)
+{
+  #blog{
+
+    h1{
+      text-align: center;
+    }
+
+    .container{
+      flex-direction: column;
+
+      .card{
+        width:100%;
+      }
+    }
+  }
+}
+
+// Galaxy fold
+
+@media(max-width:280px)
+{
+
+}
