@@ -1,5 +1,6 @@
 #blog{
   padding:3rem 10vw;
+  background:#f4f4f4;
 
   h1{
     font-weight: 400;
@@ -8,9 +9,41 @@
   }
 
   .container{
-    background:gold;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+
     .card{
       width:25%;
+      background:white;
+      border-radius: 5px;
+      overflow: hidden;
+
+      div{
+        padding:1rem;
+
+        p{
+          font-size: 10px;
+          color:grey;
+          margin-bottom: 1rem;
+        }
+
+        h2{
+          font-size: 17px;
+          margin-bottom: 1rem;
+          font-weight: 400;
+        }
+
+        h4{
+          font-size: 14px;
+          color:grey;
+          font-weight: 300;
+        }
+      }
+
+      img{
+        width:100%;
+      }
     }
   }
 }
