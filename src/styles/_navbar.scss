@@ -39,3 +39,33 @@ nav{
     cursor: pointer;
   }
 }
+
+// tablets
+
+@media(min-width:700px) and (max-width:1024px)
+{
+
+}
+
+// mobile devices
+
+@media(min-width:281px) and (max-width:640px)
+{
+  nav{
+    padding: 1rem 5vw;
+    ul{
+      display: none;
+    }
+
+    button{
+      display: none;
+    }
+  }
+}
+
+// Galaxy fold
+
+@media(max-width:280px)
+{
+
+}

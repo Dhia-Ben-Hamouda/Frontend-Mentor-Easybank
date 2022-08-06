@@ -1,5 +1,5 @@
 #home {
-  background: hsl(0, 0%, 98%);
+  background: #f4f4f4;
   padding: 0rem 10vw;
   padding-right: 0px;
   overflow-x: hidden;
@@ -68,6 +68,37 @@
       }
     }
   }
+}
 
+// tablets
+
+@media(min-width:700px) and (max-width:1024px)
+{
+
+}
+
+// mobile devices
+
+@media(min-width:281px) and (max-width:640px)
+{
+  #home{
+    .container{
+      .images{
+        .svg{
+          display: none;
+        }
+
+        .mockups{
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+// Galaxy fold
+
+@media(max-width:280px)
+{
 
 }

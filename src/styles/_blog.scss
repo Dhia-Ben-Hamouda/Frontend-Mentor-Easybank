@@ -1,5 +1,5 @@
 #blog{
-  padding:3rem 10vw;
+  padding:5rem 10vw;
   background:#f4f4f4;
 
   h1{
@@ -61,6 +61,7 @@
 @media(min-width:281px) and (max-width:640px)
 {
   #blog{
+    padding:3rem 5vw;
 
     h1{
       text-align: center;

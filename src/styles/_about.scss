@@ -54,13 +54,20 @@
 @media(min-width:281px) and (max-width:640px)
 {
   #about{
+    padding:5rem 5vw;
     h1,h3{
       text-align: center;
     }
 
     h1{
-      font-size: 29px;
+      font-size: 25px;
     }
+
+    h3{
+      font-size: 16px;
+      margin-bottom: 2rem;
+    }
+
     .container{
       display: flex;
       flex-direction: column;
@@ -73,6 +80,7 @@
         align-items: center;
         text-align: center;
         margin-bottom: 1rem;
+        margin-right:0px;
       }
     }
   }
