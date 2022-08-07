@@ -21,7 +21,6 @@
       min-height: calc(100vh - 72px);
 
       .mockups{
-        z-index: 5000;
         height:100%;
         width:100%;
 
@@ -30,7 +29,6 @@
           position:absolute;
           right:-125px;
           top:-125px;
-          z-index: 500;
         }
       }
       
@@ -104,7 +102,6 @@
         }
 
         .mockups{
-          z-index: 5000;
           height:100%;
           width:100%;
   
@@ -113,7 +110,6 @@
             position:absolute;
             right:0px;
             top:-100px;
-            z-index: 500;
           }
         }
       }
