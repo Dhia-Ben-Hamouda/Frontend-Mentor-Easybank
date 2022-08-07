@@ -1,5 +1,6 @@
 import React from "react";
-import img from "../images/bg-intro-desktop.svg";
+import intro from "../images/bg-intro-desktop.svg";
+import introMobile from "../images/bg-intro-mobile.svg";
 import mockups from "../images/image-mockups.png";
 
 const Home = ()=>{
@@ -13,7 +14,8 @@ const Home = ()=>{
             <button>Request invite</button>
           </div>
           <div className="images">
-            <img src={img} className="svg" alt="" />
+            <img src={intro} className="svg" alt="" />
+            <img src={introMobile} className="mobile-svg" alt="" />
             <div className="mockups">
               <img src={mockups} alt="" />
             </div>

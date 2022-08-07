@@ -39,6 +39,10 @@
         bottom:-125px;
         right:-425px;
       }
+
+      .mobile-svg{
+        display: none;
+      }
     }
 
     .text {
@@ -82,14 +86,53 @@
 @media(min-width:281px) and (max-width:640px)
 {
   #home{
+    padding:0rem;
+    flex-direction: column;
+    justify-content: flex-start;
     .container{
+      flex-direction: column-reverse;
       .images{
+        width:100%;
+        min-height: 280px;
+        margin-bottom: 0rem;
         .svg{
           display: none;
         }
 
+        .mobile-svg{
+          display: block;
+        }
+
         .mockups{
-          display: none;
+          z-index: 5000;
+          height:100%;
+          width:100%;
+  
+          img{
+            width:100%;
+            position:absolute;
+            right:0px;
+            top:-100px;
+            z-index: 500;
+          }
+        }
+      }
+
+      .text{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2.5rem;
+        padding-inline: 2rem;
+
+        h1{
+          font-size: 35px;
+        }
+
+        h3{
+          font-size: 14px;
         }
       }
     }
