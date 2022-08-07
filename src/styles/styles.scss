@@ -14,6 +14,10 @@ $cyan:hsl(192, 70%, 51%);
   font-family: 'Public Sans', sans-serif;
 }
 
+#root{
+  overflow: hidden;
+}
+
 @import "./navbar.scss";
 @import "./home.scss";
 @import "./about.scss";
