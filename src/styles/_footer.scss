@@ -25,6 +25,24 @@ footer{
       font-weight: 600;
       cursor: pointer;
       margin-bottom: 1rem;
+      position: relative;
+
+      &::before{
+        content:"";
+        position:absolute;
+        top:0px;
+        left:0px;
+        right:0px;
+        bottom: 0px;
+        opacity: 0;
+        background:rgba(255,255,255, 0.25);
+        border-radius: 50px;
+        transition: .4s;
+      }
+
+      &:hover::before{
+        opacity: 1;
+      }
     }
   }
 
@@ -42,6 +60,11 @@ footer{
         text-decoration: none;
         color:white;
         font-weight: 300;
+        transition: .4s;
+
+        &:hover{
+          color:$green;
+        }
       }
     }
 
@@ -54,6 +77,8 @@ footer{
         img{
           margin-right: 1rem;
           cursor: pointer;
+
+          
         }
       }
     }
