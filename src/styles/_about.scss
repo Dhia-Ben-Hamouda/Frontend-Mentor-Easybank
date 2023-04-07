@@ -17,8 +17,8 @@
   }
 
   .container{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
 
     .item{
       margin-right: .5rem;
@@ -42,16 +42,39 @@
   }
 }
 
+// large computers
+
+@media(min-width:1920px){
+  #about{
+    padding:5rem 13vw;
+    min-height: 70vh;
+  }
+}
+
 // tablets 
 
 @media(min-width:700px) and (max-width:1024px)
 {
+  #about{
+    .container{
+      grid-template-columns: repeat(2 , 1fr);
+      gap:1rem;
+      .item{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
 
+        h5{
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
 // mobile devices
 
-@media(min-width:281px) and (max-width:640px)
+@media(min-width:281px) and (max-width:680px)
 {
   #about{
     padding:5rem 5vw;
@@ -69,10 +92,7 @@
     }
 
     .container{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      
+      grid-template-columns: repeat(1 , 1fr);
 
       .item{
         display: flex;

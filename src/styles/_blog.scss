@@ -10,12 +10,11 @@
   }
 
   .container{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
     gap:20px;
 
     .card{
-      width:25%;
       background:white;
       border-radius: 5px;
       overflow: hidden;
@@ -50,11 +49,24 @@
   }
 }
 
+// large computers
+
+@media(min-width:1920px){
+  #blog{
+    padding:5rem 13vw;
+    min-height: 75vh;
+  }
+}
+
 // tablets
 
 @media(min-width:700px) and (max-width:1024px)
 {
-
+  #blog{
+    .container{
+      grid-template-columns: repeat(2 , 1fr);
+    }
+  }
 }
 
 // mobile devices
@@ -69,7 +81,7 @@
     }
 
     .container{
-      flex-direction: column;
+      grid-template-columns: repeat(1 , 1fr);
 
       .card{
         width:100%;

@@ -30,10 +30,10 @@ nav{
     a::after{
       content: "";
       position: absolute;
-      bottom: -26px;
+      bottom: -29px;
       right:0px;
       width:100%;
-      height:4.5px;
+      height:4px;
       background:linear-gradient(to left , $cyan , $green );
       transition: .5s;
       transform: scale(0  , 1);
@@ -70,6 +70,14 @@ nav{
     &:hover::before{
       opacity: 1;
     }
+  }
+}
+
+// large computers
+
+@media(min-width:1920px){
+  nav{
+    padding:1rem 13vw;
   }
 }
 

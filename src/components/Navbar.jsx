@@ -14,19 +14,19 @@ const Navbar = ()=>{
       <nav>
         <img src={logo} alt="" />
         <ul className="desktop-list">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Blog</a>
-          <a href="#">Careers</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#blog">Contact</a>
+          <a href="#blog">Blog</a>
+          <a href="#blog">Careers</a>
         </ul>
         <button>Request invite</button>
         <ul className="mobile-list opened">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Blog</a>
-          <a href="#">Careers</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#blog">Contact</a>
+          <a href="#blog">Blog</a>
+          <a href="#blog">Careers</a>
         </ul>
         <div className="bars" onClick={handleClick}>
           <div className="bar"></div>

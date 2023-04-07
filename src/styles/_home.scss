@@ -90,6 +90,14 @@
   }
 }
 
+// large computers
+
+@media(min-width:1920px){
+  #home{
+    padding:0rem 13vw;
+  }
+}
+
 // tablets
 
 @media(min-width:700px) and (max-width:1024px)
